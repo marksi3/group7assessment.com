@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.whole {
+    height: 100vh;
+    width: 100%;
+    background: url('images/web.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 25px; 
+}
+.main h1 {
+    color: white;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 7px;
+    font-family: 'Teko', sans-serif;
+    font-size: 2.7em;
+}
+.nav-bar ul li {
+    list-style: none;
+    display: inline-flex;
+    padding: 30px;
+    font-family: 'BIZ UDPMincho', serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Teko', sans-serif;
+    cursor: pointer;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 1.4em;
+    transition: 0.7s ease;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+}
+.nav-bar ul li:hover {
+    border-bottom: 0.8px solid red;
+}
+.cont {
+    padding: 13vh 25vw;
+    height: 25vh;
+    width: 50px;
+}
+.title {
+    display: block;
+    text-align: center;
+    padding: 25px 30px;
+    color: white;
+    height: 40vh;
+    width: 48vw;
+}
+.title h1 {
+    cursor: pointer;
+    font-family: 'Anek Bangla', sans-serif;
+    font-family: 'BIZ UDPMincho', serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Teko', sans-serif;
+    font-size: 10em;
+    letter-spacing: 8.8px;
+}
+.title h2 {
+    position: relative;
+    cursor: pointer;
+    bottom: 55px;
+    font-size: 3em;
+    font-family: 'Anek Bangla', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'BIZ UDPMincho', serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 4px;
+}
+.title span {
+    color: red;
+}
+.seco {
+    width: 100%;
+    background-color: white;
+}
+.contin {
+    display: flex;
+    padding: 80px 200px; 
+    justify-content: space-between;
+    background-image:linear-gradient(to bottom,#999999,#555555,#333333);
+}
+.contin .contio {
+    box-shadow: 5px 10px 18px #888888;
+    padding: 20px;
+    border: 0.1px solid #4d4d4d;
+    border-radius: 12px;
+    height: 40vh;
+    width: 28vw;
+    cursor: pointer;
+    transition: 0.7s ease;
+    background-image: linear-gradient(to top,#999999,white);
+}
+.contin .contt {
+    box-shadow: 5px 10px 18px #888888;
+    padding: 20px;
+    border: 0.1px solid #4d4d4d;
+    border-radius: 12px;
+    height: 40vh;
+    width: 28vw;
+    cursor: pointer;
+    transition: 0.7s ease;
+    background-image: linear-gradient(to top,#999999,white);
+}
+.contio h1 {
+    text-align:center;
+    font-size: 2em;
+    font-family: 'Anek Bangla', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'BIZ UDPMincho', serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Teko', sans-serif;
+}
+.contt h1 {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Anek Bangla', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'BIZ UDPMincho', serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Teko', sans-serif;
+}
+.contio p {
+    text-align: justify;
+    font-size: 1.2em;
+    font-family: 'Anek Bangla', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'BIZ UDPMincho', serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Teko', sans-serif;
+}
+.contt p {
+    text-align: justify;
+    font-size: 1.2em;
+    font-family: 'Anek Bangla', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'BIZ UDPMincho', serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Teko', sans-serif;
+}
+.contin .contio:hover {
+    box-shadow: 10px 15px 15px #212121;
+}
+.contin .contt:hover {
+    box-shadow: 10px 15px 15px #212121;
+}
+.onn {
+    display: flex;
+    padding: 80px 120px;
+    justify-content: space-between;
+    background-image:linear-gradient(to bottom,#999999,#555555,#333333);
+}
+.onn .fis {
+    cursor: pointer;
+    border: 0.1px solid #4d4d4d;
+    border-radius: 12px;
+    padding: 30px 50px;
+    height: 35vh;
+    width: 455px;
+    box-shadow: 5px 10px 18px #888888;
+    transition: 0.7s ease;
+    background-image: linear-gradient(to top,#999999,white);
+}
+.onn .fis ul {
+    list-style-position: inside;
+}
+.onn .sen {
+    cursor: pointer;
+    border: 0.1px solid #4d4d4d;
+    border-radius: 12px;
+    padding: 30px 50px;
+    height: 35vh;
+    width: 480px;
+    box-shadow: 5px 10px 18px #888888;
+    transition: 0.7s ease;
+    background-image: linear-gradient(to top,#999999,white);
+}
+.onn .sen img {
+    position: relative;
+    top: 18px;
+    right: 13px;
+    border: 1px solid #4d4d4d;
+    border-radius: 12px;
+    box-shadow: 3px 7px 13px #4d4d4d;
+}
+.onn .sen h6 {
+    font-size: 1.2em;
+}
+.onn .fis:hover {
+    box-shadow: 10px 15px 15px #212121;
+}
+.onn .sen:hover {
+    box-shadow: 5px 10px 18px #212121;
+}
+.sun .tun {
+    display: flex;
+}
+.sun .tun h6 {
+    position: relative;
+    top: 16px;
+}
+.jin {
+    padding: 65px 150px;
+    display: flex;
+    justify-content: space-between;
+    background-image:linear-gradient(to bottom,#999999,#555555,#333333);
+}
+.jin .ces {
+    cursor: pointer;
+    width: 420px;
+    border: 0.1px solid #4d4d4d;
+    border-radius: 12px;
+    background-image: linear-gradient(to top,#999999,white);
+    box-shadow: 5px 10px 18px #888888;
+    transition: 0.7s ease;
+}
+.jin .ces ul {
+    list-style-position: inside;
+    padding: 25px 48px;
+}
+.jin .wot {
+    cursor: pointer;
+    width: 360px;
+    height: 390px;
+    border: 0.1px solid #4d4d4d;
+    border-radius: 12px;
+    padding: 20px 35px;
+    background-image: linear-gradient(to top,#999999,white);
+    box-shadow: 5px 10px 18px #888888;
+    transition: 0.7s ease;
+}
+.jin .wot ol {
+    list-style-position: inside;
+}
+.ces .tun h6 {
+    position: relative;
+    font-size: 1.2em;
+    left: 80px;
+}
+.ces .tun img {
+    position: relative;
+    left: 25px;
+    top: 37px;
+}
+.wot h6 {
+    font-size: 1.1em;
+}
+.wot ol {
+    position: relative;
+    top: 9px;
+}
+.jin .ces:hover {
+    box-shadow: 5px 10px 18px #212121;
+}
+.jin .wot:hover {
+    box-shadow: 5px 10px 18px #212121;
+}
+.nit {
+    padding: 65px 150px;
+    display: flex;
+    justify-content: space-between;
+    background-image:linear-gradient(to bottom,#999999,#555555,#333333);
+}
+.jin .wot span {
+    font-weight: bold;
+}
+.hez {
+    display: flex;
+}
+.nit .pir {
+    width: 400px;
+    padding: 25px 45px;
+    border: 0.1px solid #4d4d4d;
+    border-radius: 12px;
+    background-color: white;
+    background-image: linear-gradient(to top,#999999,white);
+    box-shadow: 5px 10px 18px #888888;
+    transition: 0.7s ease;
+    cursor: pointer;
+}
+.nit .pir ol {
+    list-style-position: inside;
+}
+.nit .piz {
+    width: 440px;
+    padding: 55px 45px;
+    border: 0.1px solid #4d4d4d;
+    border-radius: 12px;
+    background-image: linear-gradient(to top,#999999,white);
+    box-shadow: 5px 10px 18px #888888;
+    transition: 0.7s ease;
+    cursor: pointer;
+}
+.pir .hez h6 {
+    position: relative;
+    text-align: center;
+    font-size: 1.1em;
+    left: 7px;
+    top: 60px;
+}
+.pir .hez img {
+    position: relative;
+    top: 45px;
+}
+.pir ol {
+    position: relative;
+    top: 75px;
+} 
+.nit .piz h6 {
+    font-size: 1.1em;
+    text-align: center;
+}
+.nit .piz p {
+    position: relative;
+    top: 9px;
+}
+.nit .pir:hover {
+    box-shadow: 5px 10px 18px #212121;
+}
+.nit .piz:hover {
+    box-shadow: 5px 10px 18px #212121;
+}
+.fot {
+    text-align: center;
+    height: 50px;
+    background-image: linear-gradient(to top,#999999,white);
+}
+.fot a {
+    position: relative;
+    top: 12px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+.fot span {
+    position: relative;
+    font-weight: bolder;
+    right: 5px;
+}
